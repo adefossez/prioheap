@@ -1,6 +1,6 @@
 # PrioHeap
 
-![example workflow name](https://github.com/actions/adefossez/prioheap/workflows/test/badge.svg)
+![test badge](https://github.com/adefossez/prioheap/workflows/test/badge.svg)
 
 A priority queue from the textbooks. Python implementation is surprinsigly not modern.
 API is dead simple
