@@ -3,7 +3,16 @@
 ![test badge](https://github.com/adefossez/prioheap/workflows/test/badge.svg)
 
 A priority queue from the textbooks. Python implementation is surprinsigly not modern.
-API is dead simple
+
+## Installation
+
+```python
+pip3 install prioheap
+```
+
+## Usage
+
+The API is dead simple:
 
 ```python
 import prioheap

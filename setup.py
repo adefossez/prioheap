@@ -11,7 +11,7 @@ URL = 'https://github.com/adefossez/prioheap'
 EMAIL = 'alexandre.defossez@gmail.com'
 AUTHOR = 'Alexandre Défossez'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = "0.2.2"
+VERSION = "0.0.1"
 
 HERE = Path(__file__).parent
 
