@@ -15,7 +15,7 @@ class PrioHeap:
         return bool(self._storage)
 
     def __repr__(self):
-        return "HeapQ({})".format(repr(list(self)))
+        return "PrioHeap({})".format(repr(list(self)))
 
     def __iter__(self):
         if not self:
@@ -45,12 +45,12 @@ class PrioHeap:
 
     def peak(self):
         if not self:
-            raise IndexError("Empty HeapQ")
+            raise IndexError("Empty PrioHeap")
         return self._storage[0]
 
     def pop(self):
         if not self:
-            raise IndexError("Empty HeapQ")
+            raise IndexError("Empty PrioHeap")
         peak = self._storage[0]
         if len(self) == 1:
             self._storage.pop()
